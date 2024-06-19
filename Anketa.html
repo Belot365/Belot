@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компютърна Система</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #bdb8b8;
+            padding: 1em;
+        }
+
+        section {
+            padding: 2em;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        form {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+        }
+
+        button {
+            padding: 8px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body bgcolor="#8DE5EA">
+
+    <header>
+        <h1>Компютърна Система</h1>
+    </header>
+
+    <nav >
+        <a href="Nachalo.html">Начало</a>
+        <a href="Stranica1.html">История</a>
+        <a href="Generations.html">Поколения</a>
+        <a href="Anketa.html">Анкета</a>
+        <a href="BulgariaTech.html">Технологии в България</a>
+    </nav>
+
+    <body>
+        <section id="survey">
+            <h2>Анкета</h2>
+            <form>
+                <label for="shortAnswer">Кратък отговор:</label>
+                <input type="text" id="shortAnswer" name="shortAnswer">
+    
+                <label for="multipleChoice">Избираем отговор:</label>
+                <select id="multipleChoice" name="multipleChoice">
+                    <option value="option1">Опция 1</option>
+                    <option value="option2">Опция 2</option>
+                    <option value="option3">Опция 3</option>
+                </select>
+    
+                <label>Множествен избор:</label>
+                <input type="checkbox" id="choice1" name="choice1" value="choice1">
+                <label for="choice1">Възможност 1</label>
+                <input type="checkbox" id="choice2" name="choice2" value="choice2">
+                <label for="choice2">Възможност 2</label>
+                <input type="checkbox" id="choice3" name="choice3" value="choice3">
+                <label for="choice3">Възможност 3</label>
+    
+                <label for="dropdown">Падащ списък:</label>
+                <select id="dropdown" name="dropdown">
+                    <option value="option1">Опция 1</option>
+                    <option value="option2">Опция 2</option>
+                    <option value="option3">Опция 3</option>
+                </select>
+    
+                <button type="submit">Изпрати</button>
+                <button type="reset">Ново попълване</button>
+                
+            </form>
+            <h1>...</h1>
+        </section>
+    </body>
+
+    
+
+    <footer>
+        <p>&copy; 2023 Компютърна Система</p>
+    </footer>
+
+</body>
+
+</html>
